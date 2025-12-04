@@ -92,12 +92,4 @@ console.log(`Birthday Timer: Days:${days} hours:${hours} minutes:${minutes} seco
 
 // 4. Print Result
 // javascript
-// console.log(`Birthday Timer: Days:9 hours:13 minutes:30 seconds:0`);
-
-
-
-
-
-
-
- 
+// console.log(`Birthday Timer: Days:9 hours:13 minutes:30 seconds:0`); 
