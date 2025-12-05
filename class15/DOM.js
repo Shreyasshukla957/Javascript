@@ -3,10 +3,12 @@
 // DOM ek tree structure hota hai jismein har HTML element (jaise <div>, <p>, <h1>, etc.) ko ek object ke roop mein browser ki memory mein store kiya jata ha
 // Is DOM tree ko JavaScript ke through access, modify, add, ya remove kiya ja sakta hai, jis se web page dynamic ban jata hai.
 // DOM hi woh object hai jiske andar web page ka data (each element) object form mein(ex:- Chrome)browser  mein stored hota hai. aur is object mein data key-value pairs mein stored h aur yeh manipulate ho sakte h jaise hum, object ke properties ko manipulate krte h object mein using JS.
+// window.document krne par pure web page ka access mil jaata h 
 
 // // Document Object Model (DOM) Tree.
-// Document
-// └── html
+// Winodow
+// └──Document
+//   └── html
 //     ├── head
 //     │   ├── meta
 //     │   ├── meta
@@ -17,7 +19,7 @@
 //             ├── h1#first.header1
 //             ├── h2#second.header1
 //             └── ul#third.header1
-//                 ├── li (CN)
+//                 ├── li (CN) 
 //                 ├── li (HTML)
 //                 ├── li (CSS)
 //                 └── li (JS)
