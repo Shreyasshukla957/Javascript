@@ -9,20 +9,20 @@
 // Winodow
 // └──Document
 //   └── html
-//     ├── head
-//     │   ├── meta
-//     │   ├── meta
-//     │   ├── title
-//     │   └── ... (other head elements)
-//     └── body
-//         └── div.root
-//             ├── h1#first.header1
-//             ├── h2#second.header1
-//             └── ul#third.header1
-//                 ├── li (CN) 
-//                 ├── li (HTML)
-//                 ├── li (CSS)
-//                 └── li (JS)
+//       ├── head
+//       │   ├── meta
+//       │   ├── meta
+//       │   ├── title
+//       │   └── ... (other head elements)
+//       └── body
+//           └── div.root
+//               ├── h1#first.header1
+//               ├── h2#second.header1
+//               └── ul#third.header1
+//                   ├── li (CN) 
+//                   ├── li (HTML)
+//                   ├── li (CSS)
+//                   └── li (JS)
 
 
 // Theory
@@ -61,7 +61,7 @@
 
 // hum HTMLCollection isiliye use krte h kyunki jab humein koi manipulation krna ho toh usse htmlcollection ke through (ex:- getElementbyId , getElementsByClassName etc)uss cheez ko identify kr sakte h aur object mein save krne se usse baar baar use krsakte h
 // document.getElementsByClassName("header1") → ye ek HTMLCollection deta hai.
-// const obj = document.getElementsByClassName("header1"); → ye us HTMLCollection ko ek variable mein save karta hai.
+// const obj = document.getElementsByClassName("header1"); → ye us HTMLCollection ko ek obj naam ke variable mein save karta hai.
 
 // --------------------IMPORTANT FOR REVISION-------------------
 // short steps to understand
