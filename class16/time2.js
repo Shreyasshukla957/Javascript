@@ -77,7 +77,6 @@ Array.from(id3) ;
 // -----------------------------------------------------------------
 
 // d: Accessing by tag name
-
 const tag = document.getElementsByTagName('li');
 console.log(tag);
 
