@@ -99,44 +99,8 @@ Array.from(tag).forEach((val) => {
 
 // ----------------------------------------------------------------
 
-// e. accessing by parentelement or parentnode
-
-const list = document.querySelector('li');
-console.log(list);
-
-console.log(list.parentElement);
-// OR
-console.log(list.parentNode);
 
 
-const unord = document.querySelector('ul');
-console.log(unord);
-console.log(unord.childNodes); //yha par childnodes childnodes ko toh display krte hi h par textnodes ko bhi krte h display ; 'textnodes' woh space h between ex:-  <li> CN <li> to <li> Js <li> 5 spaces h toh 5 textnodes aur 4 childnodes h CN , HTML , CSS , JS toh 9nodes dikha rha h
-console.log(unord.childNodes[0]); //yha par btayega textnode h 0th index par
-console.log(unord.children);//yeh ek htmlCollection h aur 'childNodes' ek nodelist ; yha par 'children' mein sirf children btayega unlike 'childrenode' jo childnodes+txtnode dono btata h ; yeh ek faraq h htmlcollection mein aur nodelist mein 
-
-// -------------------------------------------------------------------
-
- // e. accessing by first and last child 
- console.log(unord.firstChild);//yeh node h toh textnode bhi de sakta h warna element dega first child element
- console.log(unord.firstElementChild);// yeh htmlCollection h toh sirf element dega first child element
-
-console.log(unord.lastChild);//yeh node h toh textnode bhi de sakta h warna element dega last child element
-
- console.log(unord.lastElementChild);// yeh htmlCollection h toh sirf element dega ; last child element
-
-
-// ----------------------------------------------------------------------
-
-// f. Sibling nodes element.nextSibling , element.previousSibling
-// element.nestElementSibling , element.previousElementSibling.
-
-
-// ----------------------------------------------------------------------
-
-// innerHTML
-// textContent
-// innerText
 
 
 
