@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dowry Calculator</title>
+  <link rel="stylesheet" href="./dcalc.css" />
+</head>
+
+<body id="body">
+  <div id="border">
+    <div id="h1">
+      <h1>Dowry Calculator</h1>
+    </div>
+
+    <div id="Name">
+      <label for="fname" class="fname">Full Name </label>
+      <input type="text" id="fname" name="fname" placeholder="Enter Your Name" />
+    </div>
+
+    <div id="Age">
+      <label for="Yage"> Age </label>
+      <input type="number" id="Yage" name="Yage" placeholder="Enter Your Age" />
+    </div>
+
+    <div id="Contacts">
+      <label for="Contact">Contact </label>
+      <input type="number" id="Contact" name="Contact" placeholder="Contact Number" />
+    </div>
+
+    <div id="Education">
+      <label for="Educational Level">Educational Level </label>
+      <div id="Selct-Education">
+        <select name="Educational Level" id="Educational-Level">
+          <option value="" disabled selected>
+            Select Your Educational Level
+          </option>
+          <option value="Engineer">High School</option>
+          <option value="Doctor">Diploma</option>
+          <option value="Teacher">Bachelor's</option>
+          <option value="Finance">Engineering</option>
+          <option value="CA">Master's</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="Salarys">
+      <label for="Salary">Monthly Income </label>
+      <input type="number" id="Salary" name="Salary" placeholder="Enter your Income" />
+    </div>
+
+    <div id="Profession">
+      <label for="Profession">Profession</label>
+      <div id="Select">
+        <select name="Profession" id="Select-Profession">
+          <option value="" disabled selected>Select Your Profession</option>
+          <option value="Engineer">Engineer</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Teacher">Teacher</option>
+          <option value="Finance">Finance</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="Birth">
+      <label for="Birth">Zodiac Sign</label>
+      <div id="Signs">
+        <select name="Birth" id="Birth-Sign">
+          <option value="" disabled selected>Select Your Zodiac Sign</option>
+          <option value="aries">Aries</option>
+          <option value="taurus">Taurus</option>
+          <option value="gemini">Gemini</option>
+          <option value="cancer">Cancer</option>
+          <option value="leo">Leo</option>
+          <option value="virgo">Virgo</option>
+          <option value="libra">Libra</option>
+          <option value="scorpio">Scorpio</option>
+          <option value="sagittarius">Sagittarius</option>
+          <option value="capricorn">Capricorn</option>
+          <option value="aquarius">Aquarius</option>
+          <option value="pisces">Pisces</option>
+        </select>
+      </div>
+    </div>
+
+    <label for="date" id="cdate">Choose a date:</label>
+    <input type="date" id="date" name="date" />
+
+    <div id="radio">
+
+          <div id="Gender">
+      <div id="Gender1">
+        <label> Gender </label>
+      </div>
+      <div id="Gender2">
+        <div id="Male">
+          <input type="radio" name="Gender" value="Male" />
+          <label for="Male">Male</label>
+        </div>
+        <div id="Female">
+          <input type="radio" name="Gender" value="Female" />
+          <label for="Female">Female</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="Marital">
+      <div id="Marital1">
+        <label> Marital Staus </label>
+      </div>
+      <div id="Marital2">
+        <div id="Single">
+          <input type="radio" name="Marital" value="Single" />
+          <label for="Single">Single</label>
+        </div>
+        <div id="Married">
+          <input type="radio" name="Marital" value="Married" />
+          <label for="Married">Married</label>
+        </div>
+        <div id="Divorced">
+          <input type="radio" name="Marital" value="Divorced" />
+          <label for="Divorced">Divorced</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="Ownership">
+      <div id="Ownership1">
+        <label> Home Ownership </label>
+      </div>
+      <div id="Ownership2">
+        <div id="Owned">
+          <input type="radio" name="Ownership" value="Owned" />
+          <label for="Owned">Owned</label>
+        </div>
+        <div id="Rented">
+          <input type="radio" name="Ownership" value="Rented" />
+          <label for="Rented">Rented</label>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+
+    <!--
+    <div name="living">
+      <input type="radio" id="rural" name="living" value="Rural India" required />
+      <label for="rural">Rural India</label><br />
+      <input type="radio" id="urban" name="living" value="Urban India" />
+      <label for="urban">Urban India</label><br />
+      <input type="radio" id="nri" name="living" value="NRI" />
+      <label for="nri">NRI (Non-Resident Indian)</label><br />
+    </div>
+    -->
+
+    <div id="last">
+
+       <div id="Submit">
+      <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="Result">
+      Result:
+    </div>
+
+
+    </div>
+
+   
+  </div>
+
+
+
+
+
+
+  <script src="./dcalc.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#border {
+  background-color: #6b7280;
+  border: solid black 2px;
+  border-radius: 25px;
+  height: 100vh;
+  width: 82vw;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#border::-webkit-scrollbar {
+  display: none;
+}
+
+#h1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f4f6;
+}
+
+#Name,
+#Age,
+#Contacts,
+#Education,
+#Salarys,
+#Profession,
+#Birth,
+#date,
+#cdate {
+  margin-left: 18px;
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-bottom: 12px;
+  row-gap: 2px;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  color: #111827;
+}
+
+#cdate {
+  margin-bottom: 4px;
+}
+
+#date {
+  margin-bottom: 20px;
+}
+
+#fname,
+#Yage,
+#Contact,
+#Educational-Level,
+#Salary,
+#Select-Profession,
+#Birth-Sign {
+  height: 27px;
+  font-size: medium;
+  width: 93%;
+  border-radius: 3px;
+  padding-left: 5px;
+  border: solid black 2px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  outline: none;
+}
+
+#Educational-Level,
+#Select-Profession,
+#Birth-Sign {
+  width: 95.1%;
+  height: 39px;
+}
+
+#Ownership,
+#Gender,
+#Marital {
+  margin-bottom: 20px;
+}
+
+#Gender1,
+#Marital1,
+#Ownership1 {
+  font-size: large;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 19px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+}
+
+#Gender2,
+#Marital2,
+#Ownership2 {
+  display: inline;
+  height: 27px;
+  font-size: medium;
+  width: 93%;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 19px;
+  vertical-align: middle;
+}
+
+#Male,
+#Female,
+#Single,
+#Married,
+#Divorced,
+#Owned,
+#Rented {
+  display: inline;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 6px 10px;
+  text-align: center;
+  background-color: #f3f4f6;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#Submit {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+#submit-button {
+  height: 40px;
+  width: 95px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: #374151;
+  transition: all 0.7s ease;
+  margin-left: 50px;
+}
+
+#submit-button:hover {
+  transform: translateX(8px);
+  box-shadow: 1px 1px 4px 0.11px #000000;
+}
+
+#Male input,
+#Female input,
+#Male label,
+#Female label,
+#Single input,
+#Single label,
+#Married input,
+#Married label,
+#Divorced input,
+#Married label,
+#Owned input,
+#Owned label,
+#Rented input,
+#Rented label {
+  vertical-align: middle;
+}
+
+#Male:hover,
+#Female:hover,
+#Single:hover,
+#Married:hover,
+#Divorced:hover,
+#Owned:hover,
+#Rented:hover {
+  background-color: rgb(205, 200, 200);
+  box-shadow: 1px 1px 4px 0.11px #000000;
+  border-radius: 3px;
+  border-radius: 12px;
+}
+
+#fname:hover,
+#Yage:hover,
+#Contact:hover,
+#Educational-Level:hover,
+#Salary:hover,
+#Select-Profession:hover,
+#Birth-Sign:hover,
+#date {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px 0.15px #000000;
+  border-radius: 1px;
+}
+
+#Result{
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  color: #374151;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  vertical-align:bottom;
+  background: radial-gradient(rgb);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;   
+  width: 40vw;
+  min-width: 80px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  padding-left: 20px;
+  
+}
+
+
+
+#last{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+  justify-items: start;
+  column-gap: 80px;
+}
+
+
+
