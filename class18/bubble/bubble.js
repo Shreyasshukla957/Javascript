@@ -4,7 +4,7 @@
 document.addEventListener("click",(event)=>{
 
 
-let hii = ["hello" , "namaste", "hii" , "wow" , "kya!" , "chal" , "hat" , "bhaag" , "chutiya","jhaa2"];
+let hii = ["hello" , "namaste", "hii" , "wow" , "kya!" , "chal" , "hat" , "bhaag" , "baby","buddy"];
     let random = hii[Math.floor(Math.random()*hii.length)];
     const circle = document.createElement("div");
     circle.innerHTML=String(random);
