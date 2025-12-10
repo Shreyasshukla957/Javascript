@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/* Bubbling and Capturing */
+#ancestor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width: 500px;
+    border: 1px black solid;
+    background-color: yellow;
+
+}
+
+#grandparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+    background-color: red;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    background-color: blue;
+
+}
+
+#child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    background-color: green;
+
+}
+
+
+/* Event Delegation */
+/* #ancestor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px black solid;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+#red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+    background-color: red;
+    color: azure;
+    font-size: 20px;
+}
+
+#blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    background-color: blue;
+    order: 1;
+    color: azure;
+    font-size: 20px;
+
+
+}
+
+#green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    background-color: green;
+    order: 2;
+    color: azure;
+    font-size: 20px;
+
+
+} */
