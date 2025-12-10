@@ -1,0 +1,48 @@
+#root{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: 1px black solid;
+    outline: none;
+    position: relative;
+    right: 150px;
+    
+}
+
+h1{
+
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 240px;
+    bottom: 100px;
+    white-space: nowrap;
+
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
