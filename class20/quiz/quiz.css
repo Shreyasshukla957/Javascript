@@ -1,0 +1,68 @@
+/* quiz.css */
+
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+#form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; 
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+/* direct div which are children of form will be targeted not nested one / inner ones */
+#form > div {
+    margin-bottom: 25px;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e9f2fb;
+    
+}
+
+label:hover {
+    background-color: #d0e6fb;
+}
+
+
+#Submit{
+    background-color: rgb(51, 131, 252);
+    border: none;
+    margin-left: 80%;
+    margin-top: 6%;
+    padding: 13px 21px;
+    border-radius: 4px;
+    color: white;
+    transition: all 100ms linear;
+}
+
+
+#Submit:hover{
+
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+      
+
+
+
