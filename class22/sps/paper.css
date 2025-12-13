@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+#body{
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#parent{
+    height: 90vh;
+    width: 80vw;
+    background: linear-gradient(135deg, #00D4FF, #0099CC, #0066CC);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    
+    
+}
+
+
+
+#child1{
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#child2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+#firstchild{
+
+    height: 80%;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid white; 
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: #0066CC;
+
+    
+
+}
+
+#result{
+
+    height: 80%;
+    width: 60%;
+    border: white  1px solid;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+
+}
+
+
+
+#paper,#stone,#scissor{
+
+  
+    height: 85%;
+    width: 55%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    border-radius: 20px;
+    object-fit: cover;
+  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 20px;
+    
+    
+
+}
+
+
+#paper:hover , #stone:hover , #scissor:hover{
+
+
+        box-shadow: 0 6px 24px 0 rgba(0, 85, 255, 0.32), 0 1.5px 4px 0 rgba(0, 85, 255, 0.18);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
